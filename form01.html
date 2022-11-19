@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-01 Validation</title>
+    <link rel="stylesheet" href="form01.css">
+    <script defer src="form01.js" ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="contact-us">
+        <H1>Contact us </H1>
+
+        <p>We'd Love to hear your feedback, leave us a message!</p>
+    </div>
+
+    <form id="form" action="">
+
+        <label for="1stname">First Name</label>
+        <input 
+        id = '1stname'
+        class="input" 
+        type="text" 
+        name='1stname' 
+        placeholder="First name">
+
+
+        <div class="error  hidden"  id= 'error' name="errormess"> Name is required</div>
+
+
+
+
+
+
+        <label for="lastname">Last Name</label>
+        <input 
+        id = 'lastname'
+        class="input" 
+        type="text" 
+        name='lastname' 
+        placeholder="last name">
+
+        <div class="error  hidden"  id= 'error' name="errormess"> Last name is required</div>
+
+        <label for="message">Message</label>
+
+
+        <textarea 
+        id = 'message'
+        class="input" 
+        type="text" 
+        name='message' 
+        placeholder="Type message here"></textarea>
+
+        <div class="error  hidden"  id= 'error' name="errormess"> Message is required</div>
+
+
+        <hr>
+        <button id="btn"> submit form</button>
+    </form>
+    <div class="thank-you hidden">
+        <p>Thank you for your feedback!</p>
+
+    </div>
+    
+</body>
+</html>

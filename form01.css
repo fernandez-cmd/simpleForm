@@ -1,0 +1,117 @@
+html{
+    font-size: 16px;
+
+}
+body{
+    background-color: #D8D5DB;
+    font-size: 16px;
+}
+
+form label{
+    display: block;
+    font-size: 1.1em;
+    margin-top: .75rem;
+}
+form button{
+    display: block;
+    margin-top: 1rem;
+}
+form{
+    background-color:#D8D5DB ;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 30px;
+    margin-bottom: 3rem;
+}
+
+.contact-us{
+    background-color: #01295F;
+    color: white;
+    padding: 30px;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+.contact-us h1{
+    font-size: 3rem;
+}
+.contact-us p{
+    font-size: 1.2rem;
+    letter-spacing: .75;
+
+}
+
+hr{
+    background-color: #01295F;
+    height: 1px;
+    border: none;
+}
+
+
+input , textarea{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+    margin-top: .25rem;
+    margin-bottom: .15rem;
+
+}
+.error{
+    font-size: .75rem;
+
+    color: red;
+    letter-spacing: .05em;
+    margin-bottom: .75rem;
+
+
+}
+
+button{
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: .45;
+    font-size: .85em;
+    border-radius: 5px;
+    border: solid 1px #01295F;
+    transition: all .5s;
+    background-color: #D8D5DB;
+    color: #01295F
+
+
+
+    
+}
+button:hover{
+    background-color: #01295F;
+    color: #D8D5DB
+    
+}
+
+.hidden{
+    display: none;
+}
+.invalid{    
+    border: solid 1.5px red;
+}
+
+
+.thank-you{
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    padding: 30px;
+    font-size: 2rem;
+
+
+
+}
+
+textarea{
+    width: 17rem;
+    height: 7rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    letter-spacing: .75;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
